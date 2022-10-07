@@ -1,0 +1,28 @@
+.counter{
+    height: 50rem;
+    width: 30rem;
+    background: #EEF1FF;
+    border-radius: 2rem;
+}
+.counter__number{
+height: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.counter__buttons{
+height: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.counter__button{
+height: 50%;
+}
+.counter__value{
+    font-family: sans-serif;
+    font-size: 400%;
+    font-weight: 400;
+}
