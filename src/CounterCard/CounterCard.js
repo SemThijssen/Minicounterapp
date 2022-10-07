@@ -8,8 +8,8 @@ const CounterCard = () => {
 </section>
 <section class="counter__buttons">
     
-<button className="counter__button">Decrease</button>
-<button className="counter__button">Increase</button>
+<button className="counter__button counter__button--Decrease">Decrease</button>
+<button className="counter__button counter__button--Increase">Increase</button>
 </section>
         </article>
     );
