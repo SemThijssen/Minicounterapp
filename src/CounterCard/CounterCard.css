@@ -16,10 +16,21 @@ height: 20%;
 display: flex;
 justify-content: center;
 align-items: center;
+gap: 2rem;
+
 }
 
 .counter__button{
-height: 50%;
+
+padding: 1rem 2rem;
+border: none;
+font-size: 100%;
+border-radius: 1rem;
+
+}
+
+.counter__button:hover{
+    background:green;
 }
 .counter__value{
     font-family: sans-serif;
