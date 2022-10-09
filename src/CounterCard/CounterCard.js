@@ -14,12 +14,12 @@ class CounterCard extends React.Component{
     this.setState({number: this.state.number - 1});
     }
     render(){
-        console.log("Ik ben gerenderd"); return(
-        <article class ="counter">
-<section class="counter__number">
-<h1 class="counter__value" >{this.state.number}</h1>
+        return(
+        <article className ="counter">
+<section className="counter__number">
+<h1 className="counter__value" >{this.state.number}</h1>
 </section>
-<section class="counter__buttons">
+<section className="counter__buttons">
     
 <button onClick={this.decrease}className="counter__button counter__button--Decrease">Decrease</button>
 <button onClick={this.increase}className="counter__button counter__button--Increase">Increase</button>
