@@ -5,8 +5,7 @@ const App = ()=>{
         <>
         <CounterCard />
         <CounterCard />
-        <CounterCard />
-        <CounterCard />
+        
         </>
     );
 }
