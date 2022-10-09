@@ -4,19 +4,20 @@ class CounterCard extends React.Component{
 
     constructor(){
         super()
-        this.state ={number:0};
+        this.state ={number: 0};
     }
    increase = () => {
-    this.state.number += 1;
+    this.setState({number: this.state.number + 1});
     }
     
    decrease = () =>{
-      this.state.number -= 1;
+    this.setState({number: this.state.number - 1});
     }
-    render(){ return(
+    render(){
+        console.log("Ik ben gerenderd"); return(
         <article class ="counter">
 <section class="counter__number">
-<h1 class="counter__value" id="js--number">{this.state.number}</h1>
+<h1 class="counter__value" >{this.state.number}</h1>
 </section>
 <section class="counter__buttons">
     
