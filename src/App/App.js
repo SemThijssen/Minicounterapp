@@ -3,8 +3,8 @@ import "./App.css";
 const App = ()=>{
     return(
         <>
-        <CounterCard number="10"/>
-        <CounterCard number="100"/>
+        <CounterCard />
+        <CounterCard />
         </>
     );
 }

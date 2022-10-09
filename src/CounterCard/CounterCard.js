@@ -2,19 +2,21 @@ import React from "react";
 import "./CounterCard.css";
 class CounterCard extends React.Component{
 
+    constructor(){
+        super()
+        this.state ={number:0};
+    }
    increase = () => {
-        let test = document.getElementById("js--number");
-      test.innerText = parseInt(test.innerText) + 1;
+    this.state.number += 1;
     }
     
    decrease = () =>{
-        let test = document.getElementById("js--number");
-        test.innerText = parseInt(test.innerText) - 1;
+      this.state.number -= 1;
     }
     render(){ return(
         <article class ="counter">
 <section class="counter__number">
-<h1 class="counter__value" id="js--number">{this.props.number}</h1>
+<h1 class="counter__value" id="js--number">{this.state.number}</h1>
 </section>
 <section class="counter__buttons">
     
